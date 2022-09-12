@@ -60,7 +60,7 @@ export const PhoneBookForm = () => {
             required
           />
         </InputName>
-        <SubmitBtn type="submit">Add contact</SubmitBtn>
+        <SubmitBtn type="submit">Add constact</SubmitBtn>
       </FormBox>
     </Formik>
   );

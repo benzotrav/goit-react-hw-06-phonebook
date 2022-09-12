@@ -21,7 +21,7 @@ const contactsSlice = createSlice({
     addContact: (state, action) => {
       state.items.push(action.payload);
     },
-    delateContact: (state, action) => {
+    deleteContact: (state, action) => {
       state.items = state.items.filter(({ id }) => id !== action.payload);
     },
     changeFilter: (state, action) => {
@@ -51,5 +51,5 @@ export const store = configureStore({
 
 export const persistor = persistStore(store);
 
-export const { addContact, delateContact, changeFilter } =
+export const { addContact, deleteContact, changeFilter } =
   contactsSlice.actions;

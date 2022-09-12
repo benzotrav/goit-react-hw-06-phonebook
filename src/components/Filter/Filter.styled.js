@@ -13,12 +13,4 @@ export const InputBox = styled.input`
   padding: 5px;
   border: none;
   border-radius: 7px;
-  box-shadow: 1px 1px 2px 0 black;
 `;
-
-export const Title = styled.h2`
-  margin: 0;
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-`
